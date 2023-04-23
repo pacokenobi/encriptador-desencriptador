@@ -45,12 +45,12 @@ body {
 }
 
 .tarjeta-frente {
-    background-image : url(img/bg.jpeg);
+    background-image : url(/img/bg.jpg);
     color : white;
 
 }.tarjeta-vuelta {
 
-    background-image : url(img/bg.jpeg);
+    background-image : url(/img/bg.jpg);
     color : white;
     transform : rotateY(180deg);
 }
