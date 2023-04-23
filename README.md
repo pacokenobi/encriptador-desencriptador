@@ -4,7 +4,7 @@
 
 ![Codificador/Decodificador](/img/Screenshot.png)
 
-Instrucciones:
+*** Instrucciones:
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
 
