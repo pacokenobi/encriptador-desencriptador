@@ -16,44 +16,25 @@
     <div class="contenedor">
       <div class="tarjeta">
         <div class="tarjeta-contenido">
+
           <div class="tarjeta-frente">
             <h2>Ingrese el texto aquí</h2>
-            <textarea id="origen" placeholder="Escriba el mensaje a encriptar/desencriptar SIN ACENTOS"
-            ></textarea>
-            <input
-              class="btn btnEncripta"
-              type="button"
-              value="Encriptar"
-              onclick="encriptar()"
-            />
-            <input
-              class="btn btnDesencripta"
-              type="button"
-              value="Desencriptar"
-              onclick="desencriptar()"
-            />
+            <textarea id="origen" placeholder="Escriba el mensaje a encriptar/desencriptar SIN ACENTOS"></textarea>
+            <input class="btn btnEncripta" type="button" value="Encriptar" onclick="encriptar()" />
+            <input class="btn btnDesencripta" type="button" value="Desencriptar" onclick="desencriptar()" />
           </div>
+
           <div class="tarjeta-vuelta">
             <div>
               <h2 class="titulo-vuelta">Encriptar / Desencriptar</h2>
             </div>
-
             <textarea id="destino" onkeypress="minusculas(this);"></textarea>
             <div>
-              <input
-                class="btn btnRegresar"
-                type="button"
-                value="Regresar"
-                onclick="regresar()"
-              />
-              <input
-                id="copiar"
-                class="btnCopiar"
-                type="button"
-                onclick="copiar()"
-              />
+              <input class="btn btnRegresar" type="button" value="Regresar" onclick="regresar()" />
+              <input id="copiar" class="btnCopiar" type="button" onclick="copiar()" />
             </div>
           </div>
+          
         </div>
       </div>
     </div>
