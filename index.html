@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 1: Codificador-Decodificador</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img class="aluralogo" src="/img/a-latam.png" />
+      </div>
+    </header>
+    <div class="contenedor">
+      <div class="tarjeta">
+        <div class="tarjeta-contenido">
+          <div class="tarjeta-frente">
+            <h2>Ingrese el texto aquí</h2>
+            <textarea
+              id="origen"
+              placeholder="Escriba el mensaje a encriptar/desencriptar SIN ACENTOS"
+            ></textarea>
+            <input
+              class="btn btnEncripta"
+              type="button"
+              value="Encriptar"
+              onclick="encriptar()"
+            />
+            <input
+              class="btn btnDesencripta"
+              type="button"
+              value="Desencriptar"
+              onclick="desencriptar()"
+            />
+          </div>
+          <div class="tarjeta-vuelta">
+            <div>
+              <h2 class="titulo-vuelta">Encriptar / Desencriptar</h2>
+            </div>
+
+            <textarea id="destino" onkeypress="minusculas(this);"></textarea>
+            <div>
+              <input
+                class="btn btnRegresar"
+                type="button"
+                value="Regresar"
+                onclick="regresar()"
+              />
+              <input
+                id="copiar"
+                class="btnCopiar"
+                type="button"
+                onclick="copiar()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="rodapie">
+      <div>
+        <a
+          href="https://www.linkedin.com/in/francisco-carvajal-gonzalez/"
+          target="
+            "
+          ><img src="/img/linkedin.png" /></a
+        ><a href="https://github.com/pacokenobi/" target="_blank"
+          ><img src="/img/github.png"
+        /></a>
+      </div>
+      Desarrollado por Francisco Carvajal Gonzalez
+    </footer>
+    <script src="/js/myscript.js"></script>
+  </body>
+</html>

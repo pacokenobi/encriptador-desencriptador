@@ -1,0 +1,102 @@
+body {
+    margin : 0;
+    padding : 0;
+    font - family : Arial,
+    Helvetica,
+    sans - serif;
+    background : rgb(208, 208, 211);
+}.aluralogo {
+    margin : 1 % 10 %;
+}.contenedor {
+    width : 100 %;
+    height : 100 %;
+    margin : 0 auto;
+    position : relative;
+
+}.tarjeta {
+    width : 80 %;
+    height : 515 px;
+    perspective : 900 px;
+    margin : 0 auto;
+}.tarjeta - contenido {
+    position : relative;
+    width : 100 %;
+    height : 100 %;
+    text - align : center;
+    transition : transform 0.6 s;
+    transform - style : preserve - 3 d;
+    box - shadow : rgb(38, 57, 77)0 px 20 px 30 px - 10 px;
+    border - radius : 10 px;
+    border : 5 px solid #1566ca;
+}.tarjeta - frente,.tarjeta - vuelta {
+    position : absolute;
+    width : 100 %;
+    height : 100 %;
+    -webkit - backface - visibility : hidden;
+    backface - visibility : hidden;
+}.tarjeta - frente {
+    background - image : url(/img/bg.jpeg);
+    color : white;
+
+}.tarjeta - vuelta {
+
+    background - image : url(/img/bg.jpeg);
+    color : white;
+    transform : rotateY(180 deg);
+
+
+}.btn {
+    color : aliceblue;
+    display : inline - block;
+    width : 110 px;
+    padding : 12 px 12 px;
+    margin - top : 25 px;
+    border : 1 px solid rgba(255, 255, 255, 0.8);
+    border - radius : 5 %;
+    margin : o auto;
+    cursor : pointer;
+    font - size : 0.9e m;
+    font - weight : bold;
+    box - shadow : rgba(255, 255, 255, 0.5)0 px 54 px 55 px,
+    rgba(255, 255, 255, 0.5)0 px - 12 px 30 px,
+    rgba(255, 255, 255, 0.5)0 px 4 px 6 px,
+    rgba(255, 255, 255, 0.5)0 px 12 px 13 px,
+    rgba(255, 255, 255, 0.5)0 px - 3 px 5 px;
+}.btnEncripta {
+
+    background : #0A3871;
+}.btnDesencripta {
+
+    background : #CED4DA;
+    color : #0A3871;
+}.btnRegresar {
+
+    background : rgb(226, 82, 5);
+
+}.btnCopiar {
+    background - color : rgba(255, 255, 255, 0.9);
+    cursor : copy;
+    background - image : url(/img/copy.png);
+    background - repeat : no - repeat;
+    height : 40 px;
+    width : 40 px;
+    background - position : center;
+    position : relative;
+
+    border : none;
+
+}
+
+#origen,
+#destino {
+    display : block;
+    width : 80 %;
+    height : 350 px;
+    margin : 0 auto;
+
+}.rodapie {
+    margin : 3 % auto;
+    color : rgb(18, 131, 230);
+    font - weight : bold;
+    text - align : center;
+}
