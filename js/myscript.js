@@ -5,7 +5,7 @@ function preparar(){
 
     if(txtdestino.length == 0){
         document.querySelector("#destino").value = "<h3>Ningún Mensaje fue encontrado</h3>";
-        sheet.insertRule('#destino{background-image: url("../img/muneco.png");background-repeat:no-repeat; background-position:center;}', sheet.cssRules.length);
+        sheet.insertRule('#destino{background-image: url("../img/Muneco.png");background-repeat:no-repeat; background-position:center;}', sheet.cssRules.length);
         sheet.insertRule('#copiar{visibility:hidden}', sheet.cssRules.length);       
     }
     else{
