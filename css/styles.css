@@ -94,7 +94,7 @@ body {
 .btnCopiar {
     background-color : rgba(255, 255, 255, 0.9);
     cursor : copy;
-    background-image : url(img/copy.png);
+    background-image : url(../img/copy.png);
     background-repeat : no-repeat;
     height : 40px;
     width : 40px;
